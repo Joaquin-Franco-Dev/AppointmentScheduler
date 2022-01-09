@@ -9,8 +9,8 @@ public class Main {
         LocalTime startTime = LocalTime.now();
         LocalTime endTime = LocalTime.now().plusMinutes(15);
 
-        System.out.println("startTime is : " + startTime);
-        System.out.println("endTime is : " + endTime +"\n");
+        System.out.println("startTime is listed : " + startTime);
+        System.out.println("endTime is listed : " + endTime +"\n");
 
         AppointmentScheduler appointment = new AppointmentScheduler();
 
